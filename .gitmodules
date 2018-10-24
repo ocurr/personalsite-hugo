@@ -1,0 +1,7 @@
+[submodule "themes/goa"]
+	path = themes/goa
+	url = https://github.com/shenoybr/hugo-goa.git
+[submodule "public"]
+	path = public
+	url = git@github.com:ocurr/ocurr.github.io.git
+	branch = master

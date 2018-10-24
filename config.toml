@@ -11,7 +11,7 @@ publishdir = "public"
 author = "Oliver Curry"
 title = "Oliver Curry"
 
-theme = "hugo-goa"
+theme = "goa"
 
 ## Hugo Built-in Features
 disqusShortname = "Oliver" # Comment out to disable Disqus.
@@ -21,9 +21,9 @@ enableRobotsTXT = true
 ## Site Settings
 [params]
 author = "Oliver Curry"
-intro = "This is the intro text"
-description = "This is the description text"
-authorimage = "headshot.jpg"
+intro = "Computer Science Major at Cal Poly"
+description = ""
+authorimage = "headshot.jpeg"
 dateformat = "Jan 2, 2006"
 
 ## Site Meta Settings
@@ -34,33 +34,16 @@ keywords = "minimalist,blog,goa,hugo,developer"
 ## Social Accounts
 [params.social]
 github = "ocurr"
-instagram = "<username>"
-linkedin = "<username>"
-twitter = "<username>"
-facebook = "<username>"
-google = "<username>"
-stackoverflow = "<username>"
-email = "you@example.com"
 
 ## Extras
 [params.extra]
-copyright = "© 2017. Oliver Curry. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)." 
+copyright = "© 2018. Oliver Curry. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)." 
 poweredby = true
 hightlightjs = true
 
 ## Main Menu
 [[menu.main]]
-    name = "blog"
+    name = "resume"
+    identifier = "resume"
     weight = 100
-    identifier = "blog"
-    url = "/blog/"
-[[menu.main]]
-    name = "about"
-    identifier = "about"
-    weight = 200
-    url = "/about/"
-[[menu.main]]
-    name = "projects"
-    identifier = "projects"
-    weight = 300
-    url = "/projects/"
+    url = "/resume/resume"
